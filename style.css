@@ -1,0 +1,56 @@
+body,html{
+height: 100%;
+width: 100%;
+}
+body{
+	font-family: Fantasy;
+}
+.main{
+	background-image: url("img4.jpg");
+	background-size: cover;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+div.main h1 {
+  font-size: 3rem; 
+}
+hr {
+  max-width: 65px;
+  border-width: 3px;
+  border-color: red;  
+}
+.cotainer{
+	height: 100%;
+	width: 100%;
+}
+.row{
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+.column1{
+	margin-top: 50px;
+  	margin-bottom: 100px;
+}
+.column2{
+	margin-top: 350px;
+ 
+}
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+}
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44;
+}
+.btn-lg{
+	padding: 1rem;
+}
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+}
